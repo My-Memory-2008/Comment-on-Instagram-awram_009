@@ -11,3 +11,10 @@ using this website we can see and get the access token for the apps we have crea
 3.https://graph.facebook.com/v18.0/me/accounts?fields=instagram_business_account&access_token=PASTE_YOUR_ACCESS_TOKEN_HERE
 
 using this website we can get the business id info and replace the "PASTE_YOUR_ACCESS_TOKEN_HERE" with the access token you will generate in the second link i have given you
+
+
+
+To get the original 60 days access token , generate our short term access token and place it in the YOUR_2_HOUR_EXPLORER_TOKEN in the link given below, and fill the app id and app secret from the app settings> basic in the app , in this  YOUR_META_APP_ID put the app id and in this YOUR_META_APP_SECRET put the  app secret.
+
+
+https://graph.facebook.com/v21.0/oauth/access_token?grant_type=fb_exchange_token&client_id=YOUR_META_APP_ID&client_secret=YOUR_META_APP_SECRET&fb_exchange_token=YOUR_2_HOUR_EXPLORER_TOKEN
